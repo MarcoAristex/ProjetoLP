@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DNC</title>
+</head>
+<body>
+   
+    <!-- Div do menu superior -->
+    <div id="divCabecalho" >       
+        <a id="link-home" href="https://www.escoladnc.com.br/" ><img  id="logo" src="imagens/logo.svg" alt="ERRO"></a>
+        <h1 id="tituloPrincipal">Dê os primeiros passos da<br> sua carreira em Tecnologia</h1>
+        <P id="subtituloPrincipal">Inscreva-se no curso gratuito de Introdução à<br> 
+        Tecnologia da DNC School e aprenda os principais  <br> 
+        fundamentos para construir experiências efetivas.</P>
+    </div>
+    <!-- Div do menu informacional -->
+    <div id="menu-informacionalDiv">
+       <div id="iconesDiv" >
+       <div class="iconesClass"><a href=""><img id="iconeDoCertificado" class="iconesDivMenuInfo" src="imagens/icones/icone-certificado.svg"></a><P>Certificado de conclusão</P></div>
+       <div class="iconesClass"><a href=""><img id="iconeDoRelogio" class="iconesDivMenuInfo" src="imagens/icones/icone-relogio.svg"></a><p>4 horas de conteúdo</p></div>
+       <div class="iconesClass"><a href=""><img id="iconeDoCamera" class="iconesDivMenuInfo" src="imagens/icones/icone-camera.svg"></a><p>Aulas online gravadas</p></div>
+       </div>   
+    </div>
+    <!-- Div do menu divulgacao com video -->
+    <div id="menu-divulgacaoDiv">
+        <div id="videoDiv"> <iframe width="502" height="283" 
+            src="https://www.youtube.com/embed/1WQYLvbGFC0" title="Saiba o que é Bitcoin - PT" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="titulosInfo-div">
+            <h2>
+                Aprenda com especialistas e comece seu primeiro projeto
+            </h2>
+            <p>
+                Conheça o processo de desenvolvimento e entenda como utilizar
+                os principais métodos e ferramentas da área para resolver problemas complexos.
+            </p>   
+            <p>
+                Conquiste seu certificado e desenvolva um projeto prático para 
+                aplicar seus conhecimentos.     
+            </p>
+        </div>    
+    </div>
+    
+    <!-- Div do menu depoimento com  carrossel -->
+    <div id="menu-depoimentosDiv">
+        <div id="titulo-depoimentoDiv">
+            <h2>Mais de 500 alunos já iniciaram seus estudos</h2>
+        </div>
+        <div id="carrosselDiv">
+            <img id="Seta-esquerda" class="Seta" onclick="RolarParaEsquerda()" src="imagens/icones/Seta-esquerda.svg" alt="ERRO">
+            <img id="Bruna-card-depoimento"src="imagens/depoimentos/Bruna-card-depoimento.svg" alt="ERRO">
+            <img id="Leonardo-card-depoimento" src="imagens/depoimentos/Leonardo-card-depoimento.svg" alt="ERRO">
+            <img id="Samantha-card-depoimento" src="imagens/depoimentos/Samantha-card-depoimento.svg" alt="ERRO"> 
+            <img id="Seta-direita" class="Seta"  onclick="RolarParaDireita()" src="imagens/icones/Seta-direita.svg" alt="ERRO">
+            
+        </div>
+    </div>
+    <!-- Div do formulario-->
+     <div id="formularioDiv">
+        <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <input type="text" placeholder="Nome"> <br>
+        <input type="email" placeholder="Email"> <br>
+        <input type="number" placeholder="Telefone"> <br>
+        <button>Acesse a ementa grátis</button>
+     </div>
+    <script src="index.js"></script>
+</body>
+</html>
